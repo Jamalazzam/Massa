@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة الاستيراد والتصدير</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .navbar { background-color: #004a7c; }
+        .navbar-brand, .nav-link { color: #fff !important; }
+        .hero-section { background: url('hero-image.jpg') no-repeat center center; background-size: cover; height: 400px; }
+        .footer { background-color: #004a7c; color: #fff; padding: 20px 0; }
+    </style>
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">شركة الاستيراد والتصدير</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- الصفحة الرئيسية -->
+    <div class="hero-section d-flex justify-content-center align-items-center">
+        <h1 class="text-white">مرحبًا بكم في شركة الاستيراد والتصدير</h1>
+    </div>
+
+    <!-- من نحن -->
+    <section id="about" class="container my-5">
+        <h2>من نحن</h2>
+        <p>نحن شركة متخصصة في مجال الاستيراد والتصدير، نقدم حلولًا تجارية عالمية لعملائنا.</p>
+    </section>
+
+    <!-- الخدمات -->
+    <section id="services" class="container my-5">
+        <h2>الخدمات</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>استيراد</h3>
+                <p>نساعدك في استيراد المنتجات من جميع أنحاء العالم.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>تصدير</h3>
+                <p>نسهل عملية تصدير منتجاتك إلى الأسواق العالمية.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>شحن</h3>
+                <p>نقدم خدمات شحن سريعة وآمنة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- اتصل بنا -->
+    <section id="contact" class="container my-5">
+        <h2>اتصل بنا</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="form-group">
+                <label for="name">الاسم</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">الرسالة</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">إرسال</button>
+        </form>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer text-center">
+        <p>&copy; 2023 شركة الاستيراد والتصدير. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
